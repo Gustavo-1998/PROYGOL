@@ -1,0 +1,106 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/ataque"
+    tools:context=".objetivos">
+
+    <Button
+        android:id="@+id/btnreg"
+        android:layout_width="110dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/regresa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.971"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.927" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:text="@string/ObjetivoT"
+        android:textAlignment="center"
+        android:textColor="@color/blanco"
+        android:textSize="18sp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/descripcion1Anno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/Objetivo1"
+                android:textColor="@color/blanco"
+                android:textSize="15sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/descripcion1Anno2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/Objetivo2"
+                android:textColor="@color/blanco"
+                android:textSize="15sp" />
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/descripcion1Anno3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/Objetivo3"
+                android:textColor="@color/blanco"
+                android:textSize="15sp" />
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/descripcion1Anno4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/Objetivo4"
+                android:textColor="@color/blanco"
+                android:textSize="15sp" />
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/descripcion1Anno5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/Objetivo5"
+                android:textColor="@color/blanco"
+                android:textSize="15sp" />
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/descripcion1Anno6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/Objetivo6"
+                android:textColor="@color/blanco"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
